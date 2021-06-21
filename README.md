@@ -39,7 +39,7 @@ Telegram bot to unzip files.
 ## Usage
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MysteryBots/UnzipBot)
+[![Deploy](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkamileecher%2FUnzipBot&template=https%3A%2F%2Fgithub.com%2Fkamileecher%2FUnzipBot)
 
 1) Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`. Alternatively fill `OWNER_ID` and `OWNER_NAME`. 
 Note : Fill both or leave both unless bot won't work.
