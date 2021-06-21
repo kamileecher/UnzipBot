@@ -42,10 +42,10 @@ class Data:
 """
     
     HELP = """
-**Need Help ?? **
+**Yardıma ihtiyacınız var ?? **
 
-Send any zip/rar file then choose a mode and your work is done! 
-I'll unzip/unrar it and return you it's contents.
+Herhangi bir zip/rar dosyası gönderin, ardından bir mod seçin ve işiniz bitti!
+Sıkıştırılmış unzip/unrardan çıkaracağım ve içeriğini size geri vereceğim.
 
 **Komutlar** :-
 /modes - mod sec
