@@ -22,7 +22,7 @@ app = Client(
 if __name__ == "__main__":
 	app.start()  # Not using run as wanna print...
 	uname = app.get_me().username
-	print(f"@{uname} Started Successfully!")
+	print(f"@{uname} Başladı!")
 	idle()
 	app.stop()
-	print("Bot stopped. Alvida!")
+	print("Bot Durdu..")
