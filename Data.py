@@ -38,12 +38,7 @@ class Data:
 
     # Deploy Message
     DEPLOY = """
-**Wanna create your own such bot??** 
-
-This is simple and open source bot. 
-Just click below on source code and tap on "Deploy to Heroku" to create your own bot. 
-
-Click Here for [Source Code](https://github.com/MysteryBots/UnzipBot)
+**.....
 """
     
     HELP = """
@@ -52,62 +47,54 @@ Click Here for [Source Code](https://github.com/MysteryBots/UnzipBot)
 Send any zip/rar file then choose a mode and your work is done! 
 I'll unzip/unrar it and return you it's contents.
 
-**Available Commands** :-
-/modes - Know about both modes.
-/about - About this bot and source code.
-/help - This Message.
-/start - Check if bot is alive.
+**Komutlar** :-
+/modes - mod sec
+/about - yardım1
+/help - bilgi
+/start - basla
 
-**Support** - @MysteryBots & @MysteryBotsChat
 """
     
     MODES = """
-**What are Modes ❔**
+**Modlar nelerdir. ❔**
 
-1) **Tortoise 🐢**
-Bit Slow but Steady. 
+1) ** Mod1 🐢**
+Biraz Yavaş Ama Sabit. 
 
-While using this mode you will can be notified about the all progresses happening.
+Bu modu kullanırken, gerceklesen tüm gelismeler hakkında bilgilendirileceksiniz..
 
-Progresses include:
-- downloaded so far
-- contents in provided file
-- number of files in provided file
-- uploaded too far with number of the file being uploaded
+Diger modlara göre çok fazla zaman almaz ve önerilen yöntemdir.. 
 
-It doesn't take too much time than other mode and is the recommended method. 
+2) ** Mod2 🐇**
+Bit Hızlı ama daha az kullanıcı dostu.
 
-2) ** Rabbit 🐇**
-Bit Fast but less user friendly.
+Bu modu kullanırken, devam eden herhangi bir ilerleme hakkında bilgilendirilmeyeceksiniz. Sadece indirmenin tamamlanması ve yüklemenin tamamlanması bildirilecektir. 
 
-While using this mode you won't be notified about any progresses that go on. Just download completion and upload completion will be notified. 
-
-This is bit fast but only recommended for larger files as smaller files won't have much time difference.   
+Bu biraz hızlıdır ancak daha kücük dosyalar icin fazla zaman farkı olmayacagından yalnızca daha büyük dosyalar icin önerilir..   
     """
 
-    CHOOSE_MODE = "**CHOOSE MODE ** \n\nChoose a mode from below to start extracting files..."
+    CHOOSE_MODE = "**MOD SEC ** \n\nDosyaları cıkarmak mod sec..."
 
     # Home Button
-    home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
+    home_button = [[InlineKeyboardButton(text="🏠 Geri Dön 🏠", callback_data="home")]]
 
     # Modes Buttons
 
     modes_buttons = [
         [
-            InlineKeyboardButton("Tortoise 🐢", callback_data="tortoise"),
-            InlineKeyboardButton("Rabbit 🐇", callback_data="rabbit")
+            InlineKeyboardButton("Mod1 🐢", callback_data="tortoise"),
+            InlineKeyboardButton("Mod2 🐇", callback_data="rabbit")
         ],
-        [InlineKeyboardButton("What are Modes ⁉️", callback_data="modes")]
+        [InlineKeyboardButton("Modlar nelerdir ⁉️", callback_data="modes")]
     ]
 
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("What are Modes ❔", callback_data="modes"),
-            InlineKeyboardButton("📤 About 📤", callback_data="about"),
+            InlineKeyboardButton("Modlar nelerdir ❔", callback_data="modes"),
+            InlineKeyboardButton("📤 Hakkında 📤", callback_data="about"),
         ],
-        [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("Yardım ⁉️", callback_data="help")],
+        [InlineKeyboardButton("♥ Sahip ♥", url="https://t.me/kamileecher")],
+        [InlineKeyboardButton("🎨 Kanal 🎨", url="https://t.me/kamileecher1")],
     ]
