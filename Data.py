@@ -19,7 +19,7 @@ class Data:
             print("Bottan cık")
             raise SystemExit
     else:
-        START += f"\n\nBy @@kamileecher ♥"
+        START += f"\n\nBy @kamileecher1 ♥"
 
     # About Message
     ABOUT = "**Haydaa** \n\nNe arıyorsun.. \n\nKanal : [Tıkla](https://t.me/liveeboxx)"
@@ -48,10 +48,10 @@ Herhangi bir zip/rar dosyası gönderin, ardından bir mod seçin ve işiniz bit
 Sıkıştırılmış unzip/unrardan çıkaracağım ve içeriğini size geri vereceğim.
 
 **Komutlar** :-
-/modes - mod sec
-/about - yardım1
-/help - bilgi
-/start - basla
+/modes - Mod Sec
+/about - Detay
+/help - Yardım
+/start - Basla
 
 """
     
@@ -94,7 +94,8 @@ Bu biraz hızlıdır ancak daha kücük dosyalar icin fazla zaman farkı olmayac
             InlineKeyboardButton("Modlar nelerdir ❔", callback_data="modes"),
             InlineKeyboardButton("📤 Hakkında 📤", callback_data="about"),
         ],
-        [InlineKeyboardButton("Yardım ⁉️", callback_data="help")],
-        [InlineKeyboardButton("♥ Sahip ♥", url="https://t.me/kamileecher")],
-        [InlineKeyboardButton("🎨 Kanal 🎨", url="https://t.me/kamileecher1")],
+        [InlineKeyboardButton("♥ Iletisim ♥", url="https://t.me/kamileecher1")],
+        [InlineKeyboardButton("🔥 Kanal 🔥", url="https://t.me/kamileecher1")],
+        [InlineKeyboardButton("👽 Livebox 👽", url="https://t.me/liveeboxx")],
+        [InlineKeyboardButton("📚 Kutuphane 📚", url="https://t.me/ekutuphanee")],
     ]
