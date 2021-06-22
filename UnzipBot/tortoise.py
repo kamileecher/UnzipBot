@@ -40,14 +40,14 @@ async def _tortoise(unzipbot, callback_query):
         for a in contents:
             b = a.replace(f"{dir_name}/", "")
             constr += b + "\n"
-        ans = "**Icerik** \n\n" + constr
+        ans = "**icerik** \n\n" + constr
         if len(ans) > 4096:
             await con_msg.edit("Icerik kontrol ediliyor... \n\ndosya olarak gönderiliyor...")
-            f = open("contents.txt", "w+")
+            f = open("icerik.txt", "w+")
             f.write(ans)
             f.close()
             await msg.reply_document("contents.txt")
-            os.remove("contents.txt")
+            os.remove("icerik.txt")
         else:
             await msg.reply(ans)
         await con_msg.delete()
