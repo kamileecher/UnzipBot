@@ -9,7 +9,7 @@ async def progress(current, total, message, process):
     new_total = humanize.naturalsize(total)
     percentage = round((current * 100) / total, 2)
     try:
-        await message.edit(f"**{process}** \n\n**Progress :** {new_current}/{new_total} | {percentage}℅")
+        await message.edit(f"**{process}** \n\n**Ilerleme :** {new_current}/{new_total} | {percentage}℅")
     except FloodWait as e:
         time.sleep(e.x)
 
