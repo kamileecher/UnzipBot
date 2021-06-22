@@ -46,7 +46,7 @@ async def _tortoise(unzipbot, callback_query):
             f = open("icerik.txt", "w+")
             f.write(ans)
             f.close()
-            await msg.reply_document("contents.txt")
+            await msg.reply_document("icerik.txt")
             os.remove("icerik.txt")
         else:
             await msg.reply(ans)
