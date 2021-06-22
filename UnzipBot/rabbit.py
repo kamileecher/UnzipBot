@@ -22,7 +22,7 @@ async def _rabbit(unzipbot, callback_query):
         await msg.reply("500 MB'den büyük dosyalara izin verilmez..", quote=True)
         return
     try:
-        main = await msg.reply("Downloading...", quote=True)
+        main = await msg.reply("Indiriliyor...", quote=True)
         file = await msg.download()
         await main.edit("Extracting Files...")
         if file_name.endswith(".zip"):
@@ -48,7 +48,7 @@ async def _rabbit(unzipbot, callback_query):
                         "Lütfen başka bir dosya ile deneyin...", quote=True
                         )
     except Exception as e:
-        await unzipbot.send_message(msg.chat.id, "**ERROR : **" + str(
+        await unzipbot.send_message(msg.chat.id, "**HATA : **" + str(
             e) + "\n\nBu mesajı @kamileecher1'a iletin de bu sorunu çözün.", quote=True)
     finally:
         if os.path.isdir("downloads"):
