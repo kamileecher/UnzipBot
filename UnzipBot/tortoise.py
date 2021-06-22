@@ -64,7 +64,7 @@ async def _tortoise(unzipbot, callback_query):
                 time.sleep(e.x)
         stop = datetime.now()
         await msg.reply(
-            f"Cıkarma Basarıyla Tamamlandı..! \n\nİslem {round((stop - start).total_seconds() / 60, 2)} dakika da \n\n @kamileecher1")
+            f"Cıkarma Basarıyla Tamamlandı..! \n\nİslem {round((stop - start).total_seconds() / 60, 2)} dakika da bitti.. \n\n @kamileecher1")
     except rarfile.RarCannotExec:
         await msg.reply("** HATA :** Bu Dosya hata verdi. İçerik çıkarılamıyor..\n\n"
                         "Bu, bir dosyanın uzantısı manuel olarak değiştirildiğinde olabilir. `.zip`/`.rar` dosya bu biçimde olmasa bile.\n\n"
